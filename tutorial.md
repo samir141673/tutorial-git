@@ -35,3 +35,13 @@ de la version uno de la rama master nosotros debemos de sacar una copia de la ve
 ## ojo , podemos voler y seguir trabajando en la rama nueva_rama
 
 para hacer un solo commit en todos los archivos modificados podriamos poner esto git commit -am "mensaje"
+
+# Introduccion a Repositorios Remotos con Git y Github
+
+1. Creamos un nuevo repositiorio en github
+2. Despues de llevar los datos ponemos crete repository
+3. Ahora vamos a enlazar el repositorio local con el remoto
+4. ingregamos a git y dentro de la carpeta pegamos el
+   git remote add origin https://github.com/samir141673/tutorial-git.git
+5. despues pegamos elgit push -u origin main
+6. refrescamos la pagina , y vamos a ver todos nuestros repositorios remotos en github
