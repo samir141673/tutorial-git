@@ -41,7 +41,28 @@ para hacer un solo commit en todos los archivos modificados podriamos poner esto
 1. Creamos un nuevo repositiorio en github
 2. Despues de llevar los datos ponemos crete repository
 3. Ahora vamos a enlazar el repositorio local con el remoto
-4. ingregamos a git y dentro de la carpeta pegamos el
+4. git branch -M main
+5. ingregamos a git y dentro de la carpeta pegamos el
    git remote add origin https://github.com/samir141673/tutorial-git.git
-5. despues pegamos elgit push -u origin main
-6. refrescamos la pagina , y vamos a ver todos nuestros repositorios remotos en github
+6. despues pegamos elgit push -u origin main (git push lo q hace es enviar una version , un commit de forma remota a github)
+7. refrescamos la pagina , y vamos a ver todos nuestros repositorios remotos en github
+
+# Para clonar o copiar un proyecto
+
+1. creamos una carperta
+2. git clone + enlace del clone nombre_archivo lo ponemos por separado , y de esa forma se creara un archivo con el nombre de nombre_archivo
+   (esto lo q hace es traer el proyecto para q lo uses de forma local )
+3. Nos vamos a nuestra carpeta para verificar q se clono (copio el archivo )
+
+## diferencia entre git clone y git pull
+
+git clone origin master trae el proyecto tal cual esta hecho con todas sus ramas versiones commmits
+git pull origin master te trae la ultima version de dicho proyecto
+
+## para subir el proyecto de forma remota al gitbub
+
+git push origin master o puede ser de otra rama no necesariamente de las master
+
+## dato
+
+una vez q se ha subido el proyecto a github , nosotros podemos subir los cambios a github
