@@ -65,4 +65,7 @@ git push origin master o puede ser de otra rama no necesariamente de las master
 
 ## dato
 
-una vez q se ha subido el proyecto a github , nosotros podemos subir los cambios a github
+una vez q se ha subido el proyecto a github , nosotros podemos subir los cambios a github hacemos lo siguiente
+No olvidemos de subir lo cambios git add y los commit
+despues de hacer todo eso podemos subir los cambios al remoto con
+git push origin master ojo puedes nombrar otra rama para subir , pero en este caso vamos a subir la rama master
