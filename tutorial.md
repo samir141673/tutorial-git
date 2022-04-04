@@ -69,6 +69,22 @@ una vez q se ha subido el proyecto a github , nosotros podemos subir los cambios
 No olvidemos de subir lo cambios git add y los commit
 despues de hacer todo eso podemos subir los cambios al remoto con
 
-# git push origin master
+# git push
 
-ojo puedes nombrar otra rama para subir , pero en este caso vamos a subir la rama master
+ojo puedes nombrar otra rama para subir sin necesidad de hacer un git clone , pero en este caso vamos a subir la rama master
+
+# para ignorar archivos
+
+para ignorar archivos nosotros tenemos q crear un archivo en nuestro proyecto de nombre
+.gitignore
+Despues agregamos git add nuestro archivo gitignore
+dentro de gitignore , mencionamos los arhivos que vamos a ignorar en nuestro ejemplo estamos ignorando el index2.html , tambine podemos ignorar carpetas
+para lo cual dentro del .gitignore ponemos index2.html
+despues agregamos git add . y el git commit -m ""
+despues ponemos el git push
+
+# ojo si nos damos cuenta hasta ahora...
+
+en nuestro git solo esta la rama master , pero no esta nuestras ramas porq ? pues porq no lo hemos subido aun para lo cual hacemos los siguiente
+git checkout rama
+git
