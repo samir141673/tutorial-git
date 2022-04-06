@@ -87,4 +87,19 @@ despues ponemos el git push
 
 en nuestro git solo esta la rama master , pero no esta nuestras ramas porq ? pues porq no lo hemos subido aun para lo cual hacemos los siguiente
 git checkout rama
-git
+
+# git tag
+
+el git tag es cuando quieres subir una version original al github
+para crear una version nueva ponemos
+$ git tag -a v0.1 -m "primera version del proyecto" b876762
+indicamos al commit q queramos ponerlo como la primera version v0.1
+
+git tag con esto vemos todas las versiones oficiales q tenemos en el proyecto
+
+Ahora como saber el commit al cual hace referencia una version x
+git show-ref --tags
+
+Ahora como subimos esta version oficial al repositorio al remoto
+git push --tags ojo se pone git push --tags solo si estas en el master
+y si estas en otra rama seria git push origin rama --tags
